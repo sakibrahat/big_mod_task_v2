@@ -29,7 +29,7 @@ li {
   display: none;
 }
 
-@media screen and (max-width: 1102px) {
+@media screen and (max-width: 1200px) {
   .links {
     display: none;
   }
@@ -42,8 +42,31 @@ li {
   }
 }
 
-.section1_header {
-  gap: 57px;
-  padding: 0px, 0px, 120px, 0px;
-  position: relative;
+.section1_main {
+  padding: 33px 80px 33px 80px;
+  gap: 140px;
+}
+.section_1_header_1 h1 {
+  font: Archivo;
+  font-size: 106px;
+  font-weight: 800;
+  line-height: 101.75px;
+  color: #5a4eae;
+  width: 599px;
+}
+
+.section_1_header_2 h1 {
+  font: Archivo;
+  font-size: 106px;
+  font-weight: 800;
+  line-height: 101.75px;
+  color: #f76d4a;
+}
+
+.section_1_p h3 {
+  width: 523px;
+}
+
+.section_1_content {
+  gap: 27px;
 }
